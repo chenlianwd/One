@@ -10,10 +10,30 @@
 		BA4E8F7A1CB14A3D007B3648 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4E8F791CB14A3D007B3648 /* main.m */; };
 		BA4E8F7D1CB14A3D007B3648 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4E8F7C1CB14A3D007B3648 /* AppDelegate.m */; };
 		BA4E8F831CB14A3D007B3648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4E8F811CB14A3D007B3648 /* Main.storyboard */; };
-		BA4E8F851CB14A3D007B3648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4E8F841CB14A3D007B3648 /* Assets.xcassets */; };
 		BA4E8F931CB14A3D007B3648 /* OneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4E8F921CB14A3D007B3648 /* OneTests.m */; };
 		BA4E8FA41CB16A25007B3648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4E8FA31CB16A25007B3648 /* LaunchScreen.storyboard */; };
 		BA4E8FA71CB16B40007B3648 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4E8FA61CB16B40007B3648 /* ViewController.m */; };
+		BA4E8FC01CB2175D007B3648 /* CHLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4E8FBF1CB2175D007B3648 /* CHLTabBarController.m */; };
+		BA4E8FD71CB21EC5007B3648 /* CHLBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4E8FD61CB21EC5007B3648 /* CHLBasicViewController.m */; };
+		BA4E8FDB1CB22156007B3648 /* CHLUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4E8FD91CB22156007B3648 /* CHLUserViewController.m */; };
+		BA4E8FDC1CB22156007B3648 /* CHLUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4E8FDA1CB22156007B3648 /* CHLUserViewController.xib */; };
+		BA4E8FE01CB22171007B3648 /* CHLMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4E8FDE1CB22171007B3648 /* CHLMovieViewController.m */; };
+		BA4E8FE11CB22171007B3648 /* CHLMovieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4E8FDF1CB22171007B3648 /* CHLMovieViewController.xib */; };
+		BA4E8FE41CB22186007B3648 /* CHLMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4E8FE31CB22186007B3648 /* CHLMusicViewController.m */; };
+		BA4E8FE71CB221A4007B3648 /* CHLReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4E8FE61CB221A4007B3648 /* CHLReadViewController.m */; };
+		BA4E8FEA1CB221B2007B3648 /* CHLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4E8FE91CB221B2007B3648 /* CHLHomeViewController.m */; };
+		BA4E900E1CB2648A007B3648 /* Bradley Hand Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA4E90041CB2648A007B3648 /* Bradley Hand Bold.ttf */; };
+		BA4E900F1CB2648A007B3648 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = BA4E90061CB2648A007B3648 /* 1.gif */; };
+		BA4E90101CB2648A007B3648 /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = BA4E90071CB2648A007B3648 /* 2.gif */; };
+		BA4E90111CB2648A007B3648 /* 3.gif in Resources */ = {isa = PBXBuildFile; fileRef = BA4E90081CB2648A007B3648 /* 3.gif */; };
+		BA4E90121CB2648A007B3648 /* 4.gif in Resources */ = {isa = PBXBuildFile; fileRef = BA4E90091CB2648A007B3648 /* 4.gif */; };
+		BA4E90131CB2648A007B3648 /* my_player_action.gif in Resources */ = {isa = PBXBuildFile; fileRef = BA4E900A1CB2648A007B3648 /* my_player_action.gif */; };
+		BA4E90141CB2648A007B3648 /* my_player_action_white.gif in Resources */ = {isa = PBXBuildFile; fileRef = BA4E900B1CB2648A007B3648 /* my_player_action_white.gif */; };
+		BA4E90151CB2648A007B3648 /* my_player_stop.gif in Resources */ = {isa = PBXBuildFile; fileRef = BA4E900C1CB2648A007B3648 /* my_player_stop.gif */; };
+		BA4E90161CB2648A007B3648 /* my_player_stop_white.gif in Resources */ = {isa = PBXBuildFile; fileRef = BA4E900D1CB2648A007B3648 /* my_player_stop_white.gif */; };
+		BA4E90181CB264E3007B3648 /* CHLIntroduceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4E90171CB264E3007B3648 /* CHLIntroduceViewController.m */; };
+		BA4E901A1CB26FCD007B3648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4E90191CB26FCD007B3648 /* Assets.xcassets */; };
+		BAA3F1791CB2A31100C55D84 /* CHLSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA3F1781CB2A31100C55D84 /* CHLSearchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +52,6 @@
 		BA4E8F7B1CB14A3D007B3648 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
 		BA4E8F7C1CB14A3D007B3648 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		BA4E8F821CB14A3D007B3648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BA4E8F841CB14A3D007B3648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		BA4E8F891CB14A3D007B3648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		BA4E8F8E1CB14A3D007B3648 /* OneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA4E8F921CB14A3D007B3648 /* OneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneTests.m; sourceTree = "<group>"; };
@@ -41,6 +60,36 @@
 		BA4E8FA31CB16A25007B3648 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA4E8FA51CB16B40007B3648 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BA4E8FA61CB16B40007B3648 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA4E8FBE1CB2175D007B3648 /* CHLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLTabBarController.h; sourceTree = "<group>"; };
+		BA4E8FBF1CB2175D007B3648 /* CHLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLTabBarController.m; sourceTree = "<group>"; };
+		BA4E8FD51CB21EC5007B3648 /* CHLBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLBasicViewController.h; sourceTree = "<group>"; };
+		BA4E8FD61CB21EC5007B3648 /* CHLBasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLBasicViewController.m; sourceTree = "<group>"; };
+		BA4E8FD81CB22156007B3648 /* CHLUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLUserViewController.h; sourceTree = "<group>"; };
+		BA4E8FD91CB22156007B3648 /* CHLUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLUserViewController.m; sourceTree = "<group>"; };
+		BA4E8FDA1CB22156007B3648 /* CHLUserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CHLUserViewController.xib; sourceTree = "<group>"; };
+		BA4E8FDD1CB22171007B3648 /* CHLMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLMovieViewController.h; sourceTree = "<group>"; };
+		BA4E8FDE1CB22171007B3648 /* CHLMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLMovieViewController.m; sourceTree = "<group>"; };
+		BA4E8FDF1CB22171007B3648 /* CHLMovieViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CHLMovieViewController.xib; sourceTree = "<group>"; };
+		BA4E8FE21CB22186007B3648 /* CHLMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLMusicViewController.h; sourceTree = "<group>"; };
+		BA4E8FE31CB22186007B3648 /* CHLMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLMusicViewController.m; sourceTree = "<group>"; };
+		BA4E8FE51CB221A4007B3648 /* CHLReadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLReadViewController.h; sourceTree = "<group>"; };
+		BA4E8FE61CB221A4007B3648 /* CHLReadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLReadViewController.m; sourceTree = "<group>"; };
+		BA4E8FE81CB221B2007B3648 /* CHLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLHomeViewController.h; sourceTree = "<group>"; };
+		BA4E8FE91CB221B2007B3648 /* CHLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLHomeViewController.m; sourceTree = "<group>"; };
+		BA4E8FEB1CB2612F007B3648 /* CHLIntroduceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLIntroduceViewController.h; sourceTree = "<group>"; };
+		BA4E90041CB2648A007B3648 /* Bradley Hand Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bradley Hand Bold.ttf"; sourceTree = "<group>"; };
+		BA4E90061CB2648A007B3648 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
+		BA4E90071CB2648A007B3648 /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
+		BA4E90081CB2648A007B3648 /* 3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3.gif; sourceTree = "<group>"; };
+		BA4E90091CB2648A007B3648 /* 4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 4.gif; sourceTree = "<group>"; };
+		BA4E900A1CB2648A007B3648 /* my_player_action.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = my_player_action.gif; sourceTree = "<group>"; };
+		BA4E900B1CB2648A007B3648 /* my_player_action_white.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = my_player_action_white.gif; sourceTree = "<group>"; };
+		BA4E900C1CB2648A007B3648 /* my_player_stop.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = my_player_stop.gif; sourceTree = "<group>"; };
+		BA4E900D1CB2648A007B3648 /* my_player_stop_white.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = my_player_stop_white.gif; sourceTree = "<group>"; };
+		BA4E90171CB264E3007B3648 /* CHLIntroduceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLIntroduceViewController.m; sourceTree = "<group>"; };
+		BA4E90191CB26FCD007B3648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAA3F1771CB2A31100C55D84 /* CHLSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLSearchViewController.h; sourceTree = "<group>"; };
+		BAA3F1781CB2A31100C55D84 /* CHLSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLSearchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +131,11 @@
 		BA4E8F771CB14A3D007B3648 /* One */ = {
 			isa = PBXGroup;
 			children = (
+				BA4E8FA01CB14FCA007B3648 /* Common */,
+				BA4E90021CB2648A007B3648 /* Resources */,
 				BA4E8F9D1CB14FB3007B3648 /* Model */,
 				BA4E8F9E1CB14FBE007B3648 /* Views */,
 				BA4E8F9F1CB14FC4007B3648 /* ViewControllers */,
-				BA4E8FA01CB14FCA007B3648 /* Common */,
 				BA4E8FA11CB15061007B3648 /* Utilities */,
 				BA4E8F781CB14A3D007B3648 /* Supporting Files */,
 			);
@@ -113,6 +163,13 @@
 		BA4E8F9D1CB14FB3007B3648 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BA4E8FB01CB216AB007B3648 /* Home */,
+				BA4E8FB11CB216AB007B3648 /* Introduce */,
+				BA4E8FB21CB216AB007B3648 /* main */,
+				BA4E8FB31CB216AB007B3648 /* Movie */,
+				BA4E8FB41CB216AB007B3648 /* Music */,
+				BA4E8FB51CB216AB007B3648 /* Read */,
+				BA4E8FB61CB216AB007B3648 /* User */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -120,6 +177,13 @@
 		BA4E8F9E1CB14FBE007B3648 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BA4E8FB71CB216BB007B3648 /* Home */,
+				BA4E8FB81CB216BB007B3648 /* Introduce */,
+				BA4E8FB91CB216BB007B3648 /* main */,
+				BA4E8FBA1CB216BB007B3648 /* Movie */,
+				BA4E8FBB1CB216BB007B3648 /* Music */,
+				BA4E8FBC1CB216BB007B3648 /* Read */,
+				BA4E8FBD1CB216BB007B3648 /* User */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -127,6 +191,15 @@
 		BA4E8F9F1CB14FC4007B3648 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				BAA3F1761CB2A25E00C55D84 /* Search */,
+				BA4E8FD41CB21EB2007B3648 /* Basic */,
+				BA4E8FAE1CB21659007B3648 /* main */,
+				BA4E8FA91CB21659007B3648 /* User */,
+				BA4E8FAA1CB21659007B3648 /* Movie */,
+				BA4E8FAB1CB21659007B3648 /* Music */,
+				BA4E8FAC1CB21659007B3648 /* Read */,
+				BA4E8FAD1CB21659007B3648 /* Home */,
+				BA4E8FAF1CB21659007B3648 /* Introduce */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -134,6 +207,7 @@
 		BA4E8FA01CB14FCA007B3648 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				BA4E8FA81CB214DA007B3648 /* Category */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -145,12 +219,233 @@
 				BA4E8F7C1CB14A3D007B3648 /* AppDelegate.m */,
 				BA4E8FA51CB16B40007B3648 /* ViewController.h */,
 				BA4E8FA61CB16B40007B3648 /* ViewController.m */,
+				BA4E90191CB26FCD007B3648 /* Assets.xcassets */,
 				BA4E8F811CB14A3D007B3648 /* Main.storyboard */,
-				BA4E8F841CB14A3D007B3648 /* Assets.xcassets */,
 				BA4E8FA31CB16A25007B3648 /* LaunchScreen.storyboard */,
 				BA4E8F891CB14A3D007B3648 /* Info.plist */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BA4E8FA81CB214DA007B3648 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Category;
+			path = ../Category;
+			sourceTree = "<group>";
+		};
+		BA4E8FA91CB21659007B3648 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				BA4E8FD81CB22156007B3648 /* CHLUserViewController.h */,
+				BA4E8FD91CB22156007B3648 /* CHLUserViewController.m */,
+				BA4E8FDA1CB22156007B3648 /* CHLUserViewController.xib */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		BA4E8FAA1CB21659007B3648 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				BA4E8FDD1CB22171007B3648 /* CHLMovieViewController.h */,
+				BA4E8FDE1CB22171007B3648 /* CHLMovieViewController.m */,
+				BA4E8FDF1CB22171007B3648 /* CHLMovieViewController.xib */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		BA4E8FAB1CB21659007B3648 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				BA4E8FE21CB22186007B3648 /* CHLMusicViewController.h */,
+				BA4E8FE31CB22186007B3648 /* CHLMusicViewController.m */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		BA4E8FAC1CB21659007B3648 /* Read */ = {
+			isa = PBXGroup;
+			children = (
+				BA4E8FE51CB221A4007B3648 /* CHLReadViewController.h */,
+				BA4E8FE61CB221A4007B3648 /* CHLReadViewController.m */,
+			);
+			path = Read;
+			sourceTree = "<group>";
+		};
+		BA4E8FAD1CB21659007B3648 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BA4E8FE81CB221B2007B3648 /* CHLHomeViewController.h */,
+				BA4E8FE91CB221B2007B3648 /* CHLHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BA4E8FAE1CB21659007B3648 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				BA4E8FBE1CB2175D007B3648 /* CHLTabBarController.h */,
+				BA4E8FBF1CB2175D007B3648 /* CHLTabBarController.m */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		BA4E8FAF1CB21659007B3648 /* Introduce */ = {
+			isa = PBXGroup;
+			children = (
+				BA4E8FEB1CB2612F007B3648 /* CHLIntroduceViewController.h */,
+				BA4E90171CB264E3007B3648 /* CHLIntroduceViewController.m */,
+			);
+			path = Introduce;
+			sourceTree = "<group>";
+		};
+		BA4E8FB01CB216AB007B3648 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BA4E8FB11CB216AB007B3648 /* Introduce */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Introduce;
+			sourceTree = "<group>";
+		};
+		BA4E8FB21CB216AB007B3648 /* main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		BA4E8FB31CB216AB007B3648 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		BA4E8FB41CB216AB007B3648 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		BA4E8FB51CB216AB007B3648 /* Read */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Read;
+			sourceTree = "<group>";
+		};
+		BA4E8FB61CB216AB007B3648 /* User */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		BA4E8FB71CB216BB007B3648 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BA4E8FB81CB216BB007B3648 /* Introduce */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Introduce;
+			sourceTree = "<group>";
+		};
+		BA4E8FB91CB216BB007B3648 /* main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		BA4E8FBA1CB216BB007B3648 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		BA4E8FBB1CB216BB007B3648 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		BA4E8FBC1CB216BB007B3648 /* Read */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Read;
+			sourceTree = "<group>";
+		};
+		BA4E8FBD1CB216BB007B3648 /* User */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		BA4E8FD41CB21EB2007B3648 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				BA4E8FD51CB21EC5007B3648 /* CHLBasicViewController.h */,
+				BA4E8FD61CB21EC5007B3648 /* CHLBasicViewController.m */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		BA4E90021CB2648A007B3648 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA4E90031CB2648A007B3648 /* Fonts */,
+				BA4E90051CB2648A007B3648 /* GIFs */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BA4E90031CB2648A007B3648 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BA4E90041CB2648A007B3648 /* Bradley Hand Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		BA4E90051CB2648A007B3648 /* GIFs */ = {
+			isa = PBXGroup;
+			children = (
+				BA4E90061CB2648A007B3648 /* 1.gif */,
+				BA4E90071CB2648A007B3648 /* 2.gif */,
+				BA4E90081CB2648A007B3648 /* 3.gif */,
+				BA4E90091CB2648A007B3648 /* 4.gif */,
+				BA4E900A1CB2648A007B3648 /* my_player_action.gif */,
+				BA4E900B1CB2648A007B3648 /* my_player_action_white.gif */,
+				BA4E900C1CB2648A007B3648 /* my_player_stop.gif */,
+				BA4E900D1CB2648A007B3648 /* my_player_stop_white.gif */,
+			);
+			path = GIFs;
+			sourceTree = "<group>";
+		};
+		BAA3F1761CB2A25E00C55D84 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				BAA3F1771CB2A31100C55D84 /* CHLSearchViewController.h */,
+				BAA3F1781CB2A31100C55D84 /* CHLSearchViewController.m */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +530,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA4E90111CB2648A007B3648 /* 3.gif in Resources */,
+				BA4E90151CB2648A007B3648 /* my_player_stop.gif in Resources */,
+				BA4E90141CB2648A007B3648 /* my_player_action_white.gif in Resources */,
+				BA4E90161CB2648A007B3648 /* my_player_stop_white.gif in Resources */,
+				BA4E901A1CB26FCD007B3648 /* Assets.xcassets in Resources */,
+				BA4E900E1CB2648A007B3648 /* Bradley Hand Bold.ttf in Resources */,
 				BA4E8FA41CB16A25007B3648 /* LaunchScreen.storyboard in Resources */,
-				BA4E8F851CB14A3D007B3648 /* Assets.xcassets in Resources */,
+				BA4E90101CB2648A007B3648 /* 2.gif in Resources */,
+				BA4E8FE11CB22171007B3648 /* CHLMovieViewController.xib in Resources */,
+				BA4E90131CB2648A007B3648 /* my_player_action.gif in Resources */,
+				BA4E900F1CB2648A007B3648 /* 1.gif in Resources */,
+				BA4E90121CB2648A007B3648 /* 4.gif in Resources */,
 				BA4E8F831CB14A3D007B3648 /* Main.storyboard in Resources */,
+				BA4E8FDC1CB22156007B3648 /* CHLUserViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +562,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA4E8FA71CB16B40007B3648 /* ViewController.m in Sources */,
+				BA4E8FEA1CB221B2007B3648 /* CHLHomeViewController.m in Sources */,
+				BA4E8FE01CB22171007B3648 /* CHLMovieViewController.m in Sources */,
+				BA4E8FE41CB22186007B3648 /* CHLMusicViewController.m in Sources */,
+				BA4E8FD71CB21EC5007B3648 /* CHLBasicViewController.m in Sources */,
+				BA4E8FE71CB221A4007B3648 /* CHLReadViewController.m in Sources */,
+				BA4E90181CB264E3007B3648 /* CHLIntroduceViewController.m in Sources */,
 				BA4E8F7D1CB14A3D007B3648 /* AppDelegate.m in Sources */,
+				BAA3F1791CB2A31100C55D84 /* CHLSearchViewController.m in Sources */,
 				BA4E8F7A1CB14A3D007B3648 /* main.m in Sources */,
+				BA4E8FDB1CB22156007B3648 /* CHLUserViewController.m in Sources */,
+				BA4E8FC01CB2175D007B3648 /* CHLTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

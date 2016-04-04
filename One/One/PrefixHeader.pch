@@ -15,6 +15,18 @@
 #define SCREEN_HEIGHT [[UIScreen mainScreen]                                      bounds].size.height
 // 屏幕宽度
 #define SCREEN_WIDTH [[UIScreen mainScreen]                                       bounds].size.width
+#pragma mark - UIColor
+
+#define COLOR(R,G,B,ALPHA) [UIColor colorWithRed:(R)/255.0 green:(G)/255.0 blue:(B)/255.0 alpha:ALPHA]
+
+#define NavigationBarTitleTextColor          [UIColor colorWithRed:78 / 255.0 green:92 / 255.0 blue:108 / 255.0 alpha:1]
+#define LightBlackTextColor                  [UIColor colorWithWhite:90 / 255.0 alpha:1]
+#define DarkBlackTextColor                   [UIColor colorWithWhite:51 / 255.0 alpha:1]
+#define DarkGrayTextColor                    [UIColor colorWithWhite:173 / 255.0 alpha:1]
+#define GrayTextColor                        [UIColor colorWithWhite:177 / 255.0 alpha:1]
+#define LightGrayTextColor                   [UIColor colorWithWhite:198 / 255.0 alpha:1]
+#define LittleGrayColor                       [UIColor colorWithWhite:229 / 255.0 alpha:1]// #E5E5E5
+#define ShadowColor                          [UIColor colorWithWhite:102 / 255.0 alpha:1]// #666666
 
 
 #endif /* PrefixHeader_pch */

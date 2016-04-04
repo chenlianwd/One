@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "CHLTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -18,11 +18,15 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    UIViewController * Vc = [[UIViewController alloc]init];
-    self.window.rootViewController = Vc;
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [[CHLTabBarController alloc]init];
     [self.window makeKeyWindow];
-    
-    
+    //设置导航栏的背景颜色
+    [[UINavigationBar appearance]setBarTintColor:[UIColor whiteColor]];
+    //设置导航栏按钮字体颜色
+    [[UINavigationBar appearance] setTintColor:NavigationBarTitleTextColor];
+     
+     
     return YES;
 }
 
