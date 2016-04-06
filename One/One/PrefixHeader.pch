@@ -9,6 +9,9 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
+#import <Masonry.h>
+#import "AAPullToRefresh.h"
+
 #define RGB(r,g,b,alpha) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:alpha]
 
 // 屏幕高度
@@ -19,6 +22,9 @@
 
 #define COLOR(R,G,B,ALPHA) [UIColor colorWithRed:(R)/255.0 green:(G)/255.0 blue:(B)/255.0 alpha:ALPHA]
 
+#define ThemeColor          [UIColor colorWithRed:255 / 255.0 green:253 / 255.0 blue:255 / 255.0 alpha:1]
+#define NavigationBarColor          [UIColor colorWithRed:255 / 255.0 green:253 / 255.0 blue:255 / 255.0 alpha:1]
+#define SearchBarBackgroundColor          [UIColor colorWithRed:245 / 255.0 green:245 / 255.0 blue:251 / 255.0 alpha:1]
 #define NavigationBarTitleTextColor          [UIColor colorWithRed:78 / 255.0 green:92 / 255.0 blue:108 / 255.0 alpha:1]
 #define LightBlackTextColor                  [UIColor colorWithWhite:90 / 255.0 alpha:1]
 #define DarkBlackTextColor                   [UIColor colorWithWhite:51 / 255.0 alpha:1]

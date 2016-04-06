@@ -14,4 +14,6 @@
 -(void)addNavgationBarRightMusic;
 //增加左侧搜索按钮
 -(void)addNavgationBarLeftSearch;
+//分享菜单视图
+-(void)showSharedMenuView;
 @end

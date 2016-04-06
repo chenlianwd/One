@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		837AD0D3938B192FC6DD2190 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE703DE008D220E7D94EF2E /* libPods.a */; };
+		BA3E82CE1CB4AC4600BCFFCA /* AAPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3E82CD1CB4AC4600BCFFCA /* AAPullToRefresh.m */; };
+		BA3E82D11CB4AD0C00BCFFCA /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3E82D01CB4AD0C00BCFFCA /* UIView+Frame.m */; };
+		BA3E82D41CB4EFEE00BCFFCA /* CHLSharedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3E82D31CB4EFEE00BCFFCA /* CHLSharedViewController.m */; };
 		BA4E8F7A1CB14A3D007B3648 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4E8F791CB14A3D007B3648 /* main.m */; };
 		BA4E8F7D1CB14A3D007B3648 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4E8F7C1CB14A3D007B3648 /* AppDelegate.m */; };
 		BA4E8F831CB14A3D007B3648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4E8F811CB14A3D007B3648 /* Main.storyboard */; };
@@ -18,7 +22,6 @@
 		BA4E8FDB1CB22156007B3648 /* CHLUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4E8FD91CB22156007B3648 /* CHLUserViewController.m */; };
 		BA4E8FDC1CB22156007B3648 /* CHLUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4E8FDA1CB22156007B3648 /* CHLUserViewController.xib */; };
 		BA4E8FE01CB22171007B3648 /* CHLMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4E8FDE1CB22171007B3648 /* CHLMovieViewController.m */; };
-		BA4E8FE11CB22171007B3648 /* CHLMovieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4E8FDF1CB22171007B3648 /* CHLMovieViewController.xib */; };
 		BA4E8FE41CB22186007B3648 /* CHLMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4E8FE31CB22186007B3648 /* CHLMusicViewController.m */; };
 		BA4E8FE71CB221A4007B3648 /* CHLReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4E8FE61CB221A4007B3648 /* CHLReadViewController.m */; };
 		BA4E8FEA1CB221B2007B3648 /* CHLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4E8FE91CB221B2007B3648 /* CHLHomeViewController.m */; };
@@ -34,6 +37,10 @@
 		BA4E90181CB264E3007B3648 /* CHLIntroduceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4E90171CB264E3007B3648 /* CHLIntroduceViewController.m */; };
 		BA4E901A1CB26FCD007B3648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4E90191CB26FCD007B3648 /* Assets.xcassets */; };
 		BAA3F1791CB2A31100C55D84 /* CHLSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA3F1781CB2A31100C55D84 /* CHLSearchViewController.m */; };
+		BABCD4FC1CB3D4D00092EFD3 /* CHLCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BABCD4FB1CB3D4D00092EFD3 /* CHLCollectionViewCell.m */; };
+		BABCD4FF1CB3D4F30092EFD3 /* CHLMovieCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BABCD4FE1CB3D4F30092EFD3 /* CHLMovieCellModel.m */; };
+		BAEB50221CB364E7009F843B /* CHLHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEB50211CB364E7009F843B /* CHLHomeView.m */; };
+		BAEB50251CB365D4009F843B /* CHLHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEB50241CB365D4009F843B /* CHLHomeModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A2905C47BF658F63B4238C17 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		ACE703DE008D220E7D94EF2E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3E82CC1CB4AC4600BCFFCA /* AAPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPullToRefresh.h; sourceTree = "<group>"; };
+		BA3E82CD1CB4AC4600BCFFCA /* AAPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPullToRefresh.m; sourceTree = "<group>"; };
+		BA3E82CF1CB4AD0C00BCFFCA /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		BA3E82D01CB4AD0C00BCFFCA /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		BA3E82D21CB4EFEE00BCFFCA /* CHLSharedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLSharedViewController.h; sourceTree = "<group>"; };
+		BA3E82D31CB4EFEE00BCFFCA /* CHLSharedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLSharedViewController.m; sourceTree = "<group>"; };
 		BA4E8F751CB14A3D007B3648 /* One.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = One.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA4E8F791CB14A3D007B3648 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BA4E8F7B1CB14A3D007B3648 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
@@ -69,7 +84,6 @@
 		BA4E8FDA1CB22156007B3648 /* CHLUserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CHLUserViewController.xib; sourceTree = "<group>"; };
 		BA4E8FDD1CB22171007B3648 /* CHLMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLMovieViewController.h; sourceTree = "<group>"; };
 		BA4E8FDE1CB22171007B3648 /* CHLMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLMovieViewController.m; sourceTree = "<group>"; };
-		BA4E8FDF1CB22171007B3648 /* CHLMovieViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CHLMovieViewController.xib; sourceTree = "<group>"; };
 		BA4E8FE21CB22186007B3648 /* CHLMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLMusicViewController.h; sourceTree = "<group>"; };
 		BA4E8FE31CB22186007B3648 /* CHLMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLMusicViewController.m; sourceTree = "<group>"; };
 		BA4E8FE51CB221A4007B3648 /* CHLReadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLReadViewController.h; sourceTree = "<group>"; };
@@ -90,6 +104,16 @@
 		BA4E90191CB26FCD007B3648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAA3F1771CB2A31100C55D84 /* CHLSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLSearchViewController.h; sourceTree = "<group>"; };
 		BAA3F1781CB2A31100C55D84 /* CHLSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLSearchViewController.m; sourceTree = "<group>"; };
+		BABCD4FA1CB3D4D00092EFD3 /* CHLCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLCollectionViewCell.h; sourceTree = "<group>"; };
+		BABCD4FB1CB3D4D00092EFD3 /* CHLCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLCollectionViewCell.m; sourceTree = "<group>"; };
+		BABCD4FD1CB3D4F30092EFD3 /* CHLMovieCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLMovieCellModel.h; sourceTree = "<group>"; };
+		BABCD4FE1CB3D4F30092EFD3 /* CHLMovieCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLMovieCellModel.m; sourceTree = "<group>"; };
+		BAEB501F1CB351F6009F843B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		BAEB50201CB364E7009F843B /* CHLHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLHomeView.h; sourceTree = "<group>"; };
+		BAEB50211CB364E7009F843B /* CHLHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLHomeView.m; sourceTree = "<group>"; };
+		BAEB50231CB365D4009F843B /* CHLHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLHomeModel.h; sourceTree = "<group>"; };
+		BAEB50241CB365D4009F843B /* CHLHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLHomeModel.m; sourceTree = "<group>"; };
+		EF1562678DEE70BAF16ED987 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837AD0D3938B192FC6DD2190 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,12 +135,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26F83AA5C10EF7BB1074AEDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF1562678DEE70BAF16ED987 /* Pods.debug.xcconfig */,
+				A2905C47BF658F63B4238C17 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		35F2A994B786C5FDD0443182 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACE703DE008D220E7D94EF2E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA3E82CB1CB4AC4600BCFFCA /* AAPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				BA3E82CC1CB4AC4600BCFFCA /* AAPullToRefresh.h */,
+				BA3E82CD1CB4AC4600BCFFCA /* AAPullToRefresh.m */,
+			);
+			path = AAPullToRefresh;
+			sourceTree = "<group>";
+		};
 		BA4E8F6C1CB14A3D007B3648 = {
 			isa = PBXGroup;
 			children = (
 				BA4E8F771CB14A3D007B3648 /* One */,
 				BA4E8F911CB14A3D007B3648 /* OneTests */,
 				BA4E8F761CB14A3D007B3648 /* Products */,
+				26F83AA5C10EF7BB1074AEDB /* Pods */,
+				35F2A994B786C5FDD0443182 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -207,6 +260,7 @@
 		BA4E8FA01CB14FCA007B3648 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				BA3E82CB1CB4AC4600BCFFCA /* AAPullToRefresh */,
 				BA4E8FA81CB214DA007B3648 /* Category */,
 			);
 			path = Common;
@@ -230,6 +284,8 @@
 		BA4E8FA81CB214DA007B3648 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				BA3E82CF1CB4AD0C00BCFFCA /* UIView+Frame.h */,
+				BA3E82D01CB4AD0C00BCFFCA /* UIView+Frame.m */,
 			);
 			name = Category;
 			path = ../Category;
@@ -250,7 +306,6 @@
 			children = (
 				BA4E8FDD1CB22171007B3648 /* CHLMovieViewController.h */,
 				BA4E8FDE1CB22171007B3648 /* CHLMovieViewController.m */,
-				BA4E8FDF1CB22171007B3648 /* CHLMovieViewController.xib */,
 			);
 			path = Movie;
 			sourceTree = "<group>";
@@ -303,6 +358,8 @@
 		BA4E8FB01CB216AB007B3648 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				BAEB50231CB365D4009F843B /* CHLHomeModel.h */,
+				BAEB50241CB365D4009F843B /* CHLHomeModel.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -324,6 +381,8 @@
 		BA4E8FB31CB216AB007B3648 /* Movie */ = {
 			isa = PBXGroup;
 			children = (
+				BABCD4FD1CB3D4F30092EFD3 /* CHLMovieCellModel.h */,
+				BABCD4FE1CB3D4F30092EFD3 /* CHLMovieCellModel.m */,
 			);
 			path = Movie;
 			sourceTree = "<group>";
@@ -352,6 +411,8 @@
 		BA4E8FB71CB216BB007B3648 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				BAEB50201CB364E7009F843B /* CHLHomeView.h */,
+				BAEB50211CB364E7009F843B /* CHLHomeView.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -373,6 +434,8 @@
 		BA4E8FBA1CB216BB007B3648 /* Movie */ = {
 			isa = PBXGroup;
 			children = (
+				BABCD4FA1CB3D4D00092EFD3 /* CHLCollectionViewCell.h */,
+				BABCD4FB1CB3D4D00092EFD3 /* CHLCollectionViewCell.m */,
 			);
 			path = Movie;
 			sourceTree = "<group>";
@@ -403,6 +466,8 @@
 			children = (
 				BA4E8FD51CB21EC5007B3648 /* CHLBasicViewController.h */,
 				BA4E8FD61CB21EC5007B3648 /* CHLBasicViewController.m */,
+				BA3E82D21CB4EFEE00BCFFCA /* CHLSharedViewController.h */,
+				BA3E82D31CB4EFEE00BCFFCA /* CHLSharedViewController.m */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -455,9 +520,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA4E8F971CB14A3D007B3648 /* Build configuration list for PBXNativeTarget "One" */;
 			buildPhases = (
+				5ACD02187159643E5E19A9CB /* Check Pods Manifest.lock */,
 				BA4E8F711CB14A3D007B3648 /* Sources */,
 				BA4E8F721CB14A3D007B3648 /* Frameworks */,
 				BA4E8F731CB14A3D007B3648 /* Resources */,
+				DE05C344F4B979261F6436E9 /* Embed Pods Frameworks */,
+				7D5528B5E7E0777EE2727829 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -538,7 +606,6 @@
 				BA4E900E1CB2648A007B3648 /* Bradley Hand Bold.ttf in Resources */,
 				BA4E8FA41CB16A25007B3648 /* LaunchScreen.storyboard in Resources */,
 				BA4E90101CB2648A007B3648 /* 2.gif in Resources */,
-				BA4E8FE11CB22171007B3648 /* CHLMovieViewController.xib in Resources */,
 				BA4E90131CB2648A007B3648 /* my_player_action.gif in Resources */,
 				BA4E900F1CB2648A007B3648 /* 1.gif in Resources */,
 				BA4E90121CB2648A007B3648 /* 4.gif in Resources */,
@@ -556,22 +623,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5ACD02187159643E5E19A9CB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7D5528B5E7E0777EE2727829 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE05C344F4B979261F6436E9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BA4E8F711CB14A3D007B3648 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA3E82CE1CB4AC4600BCFFCA /* AAPullToRefresh.m in Sources */,
 				BA4E8FA71CB16B40007B3648 /* ViewController.m in Sources */,
 				BA4E8FEA1CB221B2007B3648 /* CHLHomeViewController.m in Sources */,
 				BA4E8FE01CB22171007B3648 /* CHLMovieViewController.m in Sources */,
 				BA4E8FE41CB22186007B3648 /* CHLMusicViewController.m in Sources */,
 				BA4E8FD71CB21EC5007B3648 /* CHLBasicViewController.m in Sources */,
 				BA4E8FE71CB221A4007B3648 /* CHLReadViewController.m in Sources */,
+				BABCD4FF1CB3D4F30092EFD3 /* CHLMovieCellModel.m in Sources */,
 				BA4E90181CB264E3007B3648 /* CHLIntroduceViewController.m in Sources */,
 				BA4E8F7D1CB14A3D007B3648 /* AppDelegate.m in Sources */,
+				BAEB50221CB364E7009F843B /* CHLHomeView.m in Sources */,
 				BAA3F1791CB2A31100C55D84 /* CHLSearchViewController.m in Sources */,
+				BA3E82D11CB4AD0C00BCFFCA /* UIView+Frame.m in Sources */,
 				BA4E8F7A1CB14A3D007B3648 /* main.m in Sources */,
 				BA4E8FDB1CB22156007B3648 /* CHLUserViewController.m in Sources */,
+				BAEB50251CB365D4009F843B /* CHLHomeModel.m in Sources */,
+				BABCD4FC1CB3D4D00092EFD3 /* CHLCollectionViewCell.m in Sources */,
+				BA3E82D41CB4EFEE00BCFFCA /* CHLSharedViewController.m in Sources */,
 				BA4E8FC01CB2175D007B3648 /* CHLTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -599,6 +721,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				BA4E8F821CB14A3D007B3648 /* Base */,
+				BAEB501F1CB351F6009F843B /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			path = ..;
@@ -691,6 +814,7 @@
 		};
 		BA4E8F981CB14A3D007B3648 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF1562678DEE70BAF16ED987 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -704,6 +828,7 @@
 		};
 		BA4E8F991CB14A3D007B3648 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2905C47BF658F63B4238C17 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

@@ -9,6 +9,7 @@
 #import "CHLBasicViewController.h"
 #import "CHLUserViewController.h"
 #import "CHLSearchViewController.h"
+#import "CHLSharedViewController.h"
 @interface CHLBasicViewController ()
 
 @end
@@ -73,5 +74,11 @@
 {
     CHLSearchViewController * SearchVc = [[CHLSearchViewController alloc]init];
     [self presentViewController:SearchVc animated:YES completion:nil];
+}
+
+-(void)showSharedMenuView
+{
+    CHLSharedViewController * shared = [[CHLSharedViewController alloc]init];
+    [self presentViewController:shared animated:YES completion:nil];
 }
 @end
